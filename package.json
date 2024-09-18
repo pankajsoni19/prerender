@@ -1,0 +1,14 @@
+{
+    "author": "pankajsoni19@live.com",
+    "name": "prerender-docker",
+    "description": "Prerender in headless chrome",
+    "type": "module",
+    "scripts": {
+        "start": "node server/index.js"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "prerender": "^5.21.6",
+        "prerender-memory-cache": "^1.0.2"
+    }
+}
